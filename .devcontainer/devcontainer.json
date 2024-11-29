@@ -1,0 +1,49 @@
+signature: 9e6997abb93a53eecb352d88eedb76f3533cbd86cb871d1f1e88f600d82a1d58ccd2a045ba84c672f806139ec443d7716b4515b083f0c9c97611bff9455ef508
+msg:
+  subwallet_id: 200
+  message_to_send:
+    sum_type: MessageInternal
+    message_internal:
+      ihr_disabled: true
+      bounce: true
+      bounced: true
+      src: ""
+      dest: 0:9182cd5dd4cf75766da11de17c96e5c11fe68817d3d3f93da39687105e2601bc
+      value:
+        grams: "50000000"
+        other: {}
+      ihr_fee: "0"
+      fwd_fee: "0"
+      created_lt: 0
+      created_at: 0
+      init: null
+      body:
+        is_right: true
+        value:
+          sum_type: JettonTransfer
+          op_code: 260734629
+          value:
+            query_id: 497980807
+            amount: "4900000000000"
+            destination: 0:971c114799a70cffc3b1317b820000e329c8d3bce7d5eb65973b29407347b659
+            response_destination: 0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309
+            custom_payload: null
+            forward_ton_amount: "1"
+            forward_payload:
+              is_right: doğru
+              value: {}
+    message_ext_out:
+      src: ""
+      dest: ""
+      created_lt: 0
+      created_at: 0
+      init: null
+      body:
+        is_right: nul
+        value: {}
+  send_mode: 1
+  query_id:
+    shift: 3455
+    bit_number: 428
+  created_at: 497980807
+  timeout: 3600
